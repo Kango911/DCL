@@ -1,0 +1,13 @@
+﻿<Page x:Class="DCL.Pages.start"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:DCL.Pages"
+      mc:Ignorable="d"
+      Title="start" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="frak" Click="frak_Click" Content="Фрактал" HorizontalContentAlignment="Center" Margin="405, 255, 281, 176"/>
+        <Button x:Name="bash" Click="bash_Click" Content="Башня" HorizontalContentAlignment="Center" Margin="311, 255, 400, 176"/>
+    </Grid>
+</Page>
