@@ -49,7 +49,7 @@ namespace DCL.Pages
 
         SolidColorBrush towerBrush = Brushes.DarkSlateGray;
         SolidColorBrush[] brushes = new[] { Brushes.Violet, Brushes.LightPink, Brushes.DarkBlue, Brushes.RoyalBlue,
-            Brushes.ForestGreen, Brushes.DarkOliveGreen, Brushes.Orange, Brushes.IndianRed, Brushes.Gold, Brushes.SpringGreen };
+            Brushes.ForestGreen, Brushes.DarkOliveGreen, Brushes.Orange, Brushes.IndianRed, Brushes.Crimson , Brushes.SpringGreen };
 
 
         public Towers(MainWindow mainWindow)
