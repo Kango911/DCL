@@ -18,9 +18,9 @@ public partial class frak : UserControl
     Boolean toggle;
     Char r = default(Char);
 
-    Int32 distance = 10; // line length
-    Int32 step = 100; // paints per step
-    Int32 skip = 10; // folds per paint
+    Int32 distance = 5; // line length
+    Int32 step = 50; // paints per step
+    Int32 skip = 100; // folds per paint
 
     Double x = 0;
     Double y = 0;
@@ -30,11 +30,11 @@ public partial class frak : UserControl
     public frak(MainWindow mainWindow)
     {
         InitializeComponent();
-        st_Click();
+        Frak();
     }
 
 
-    private void st_Click()
+    private void Frak()
     {
 
         x = canvas.ActualWidth / 3;
