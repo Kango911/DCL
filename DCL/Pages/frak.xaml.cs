@@ -30,10 +30,11 @@ public partial class frak : UserControl
     public frak(MainWindow mainWindow)
     {
         InitializeComponent();
+        st_Click();
     }
 
 
-    private void st_Click(object sender, RoutedEventArgs e)
+    private void st_Click()
     {
 
         x = canvas.ActualWidth / 3;
