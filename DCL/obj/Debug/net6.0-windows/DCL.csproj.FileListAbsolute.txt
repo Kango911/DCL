@@ -19,9 +19,9 @@ D:\JetBrains\DCL\DCL\obj\Debug\net6.0-windows\refint\DCL.dll
 D:\JetBrains\DCL\DCL\obj\Debug\net6.0-windows\DCL.pdb
 D:\JetBrains\DCL\DCL\obj\Debug\net6.0-windows\DCL.genruntimeconfig.cache
 D:\JetBrains\DCL\DCL\obj\Debug\net6.0-windows\ref\DCL.dll
-D:\JetBrains\DCL\DCL\obj\Debug\net6.0-windows\Pages\bash.g.cs
 D:\JetBrains\DCL\DCL\obj\Debug\net6.0-windows\Pages\frak.g.cs
 D:\JetBrains\DCL\DCL\obj\Debug\net6.0-windows\Pages\start.g.cs
-D:\JetBrains\DCL\DCL\obj\Debug\net6.0-windows\Pages\bash.baml
 D:\JetBrains\DCL\DCL\obj\Debug\net6.0-windows\Pages\frak.baml
 D:\JetBrains\DCL\DCL\obj\Debug\net6.0-windows\Pages\start.baml
+D:\JetBrains\DCL\DCL\obj\Debug\net6.0-windows\Pages\Towers.g.cs
+D:\JetBrains\DCL\DCL\obj\Debug\net6.0-windows\Pages\Towers.baml

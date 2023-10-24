@@ -45,6 +45,7 @@ namespace DCL.Pages
         int i; bool playActive;
 
         string text = "Шаги: ";
+        private readonly MainWindow _mainWindow;
 
         SolidColorBrush towerBrush = Brushes.DarkSlateGray;
         SolidColorBrush[] brushes = new[] { Brushes.Violet, Brushes.LightPink, Brushes.DarkBlue, Brushes.RoyalBlue,
@@ -54,12 +55,13 @@ namespace DCL.Pages
         public Towers(MainWindow mainWindow)
         {
             InitializeComponent();
+            _mainWindow = mainWindow;
 
             Rings = new List<Ring>();
 
             i = 0; playActive = false;
-
-            (double x, double y) middle = (MainWindow.Width / 2, MainWindow.Height / 2);
+            
+            (double x, double y) middle = (mainWindow.Width / 2, mainWindow.Height / 2);
 
             cbCount.ItemsSource = counts;
             cbCount.SelectedIndex = 0;
@@ -123,7 +125,7 @@ namespace DCL.Pages
 
         void CreateTower()
         {
-            middle = (MainWindow.Width / 2, MainWindow.Height / 2);
+            middle = (_mainWindow.Width / 2, _mainWindow.Height / 2);
 
             MainCanvas.Children.Add(MakeLine(middle.x, middle.x, middle.y, middle.y - stickHeight, stickThickness));
 
