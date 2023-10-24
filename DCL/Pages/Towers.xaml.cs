@@ -35,7 +35,7 @@ namespace DCL.Pages
 
     public partial class Towers : Page
     {
-        int[] counts = new[] { 3, 4, 5, 6, 7, 8 };
+        int[] counts = new[] { 3, 4, 5, 6, 7, 8, 9, 10 };
         int heightRing = 20, widthRing = 50, distance = 150, stickThickness = 10, stickHeight = 180;
         List<Ring> Rings;
         Solver solver = new Solver();
@@ -49,7 +49,7 @@ namespace DCL.Pages
 
         SolidColorBrush towerBrush = Brushes.DarkSlateGray;
         SolidColorBrush[] brushes = new[] { Brushes.Violet, Brushes.LightPink, Brushes.DarkBlue, Brushes.RoyalBlue,
-            Brushes.ForestGreen, Brushes.DarkOliveGreen, Brushes.Orange, Brushes.IndianRed };
+            Brushes.ForestGreen, Brushes.DarkOliveGreen, Brushes.Orange, Brushes.IndianRed, Brushes.Gold, Brushes.SpringGreen };
 
 
         public Towers(MainWindow mainWindow)
