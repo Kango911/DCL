@@ -24,6 +24,6 @@ public partial class start : Page
     
     private void bash_Click(object sender, RoutedEventArgs e) 
     {     
-        mainWindow.OpenPage(MainWindow.pages.bash); 
+        mainWindow.OpenPage(MainWindow.pages.Towers); 
     }
 }

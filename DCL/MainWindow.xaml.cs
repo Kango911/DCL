@@ -32,7 +32,7 @@ namespace DCL
         {
             start,
             frak,
-            bash
+            Towers
         }   
         
         public void OpenPage(pages pages)
@@ -42,8 +42,8 @@ namespace DCL
                 frame.Navigate(new start(this));
             } else if (pages == pages.frak)
                 frame.Navigate(new frak(this));
-            else if (pages == pages.bash)
-                frame.Navigate(new bash(this));
+            else if (pages == pages.Towers)
+                frame.Navigate(new Towers(this));
         }
     }
 }
