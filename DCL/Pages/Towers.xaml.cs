@@ -47,7 +47,7 @@ namespace DCL.Pages
         string text = "Шаги: ";
         private readonly MainWindow _mainWindow;
 
-        SolidColorBrush towerBrush = Brushes.DarkSlateGray;
+        SolidColorBrush towerBrush = Brushes.SaddleBrown;
         SolidColorBrush[] brushes = new[] { Brushes.Violet, Brushes.LightPink, Brushes.DarkBlue, Brushes.RoyalBlue,
             Brushes.ForestGreen, Brushes.DarkOliveGreen, Brushes.Orange, Brushes.IndianRed, Brushes.Crimson , Brushes.SpringGreen };
 
