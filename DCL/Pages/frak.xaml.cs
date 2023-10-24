@@ -18,9 +18,9 @@ public partial class frak : UserControl
     Boolean toggle;
     Char r = default(Char);
 
-    Int32 distance = 5; // line length
-    Int32 step = 50; // paints per step
-    Int32 skip = 100; // folds per paint
+    Int32 distance = 2; // line length
+    Int32 step = 20; // paints per step
+    Int32 skip = 500; // folds per paint
 
     Double x = 0;
     Double y = 0;
