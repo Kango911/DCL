@@ -7,7 +7,7 @@
       mc:Ignorable="d"
       Title="start" Height="450" Width="800">
     <Grid Background="Lavender">
-        <Button x:Name="frak" Click="frak_Click" Content="Фрактал" HorizontalContentAlignment="Center" Margin="405, 255, 281, 176"/>
-        <Button x:Name="bash" Click="bash_Click" Content="Башня" HorizontalContentAlignment="Center" Margin="311, 255, 400, 176"/>
+        <Button x:Name="frak" Click="frak_Click" Content="Дракон Хартера" HorizontalContentAlignment="Center" Margin="280, 255, 400, 135"/>
+        <Button x:Name="bash" Click="bash_Click" Content="Ханойская башня" HorizontalContentAlignment="Center" Margin="405, 255, 281, 135"/>
     </Grid>
 </Page>

@@ -67,6 +67,11 @@ namespace DCL.Pages
             cbCount.SelectedIndex = 0;
             CreateTower();
         }
+        
+        private void start_Click(object sender, RoutedEventArgs e)
+        {
+            _mainWindow.OpenPage(MainWindow.pages.start); 
+        }
 
         private void btnPrev_Click(object sender, RoutedEventArgs e)
         {

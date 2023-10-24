@@ -25,12 +25,19 @@ public partial class frak : UserControl
     Double x = 0;
     Double y = 0;
     Int32 a = 90;
+    private readonly MainWindow _mainWindow;
 
 
     public frak(MainWindow mainWindow)
     {
         InitializeComponent();
         Frak();
+        _mainWindow = mainWindow;
+
+    }
+    private void start_Click(object sender, RoutedEventArgs e)
+    {
+        _mainWindow.OpenPage(MainWindow.pages.start); 
     }
 
 
@@ -156,4 +163,5 @@ public partial class frak : UserControl
         return r;
     }
 
+    
 }

@@ -13,9 +13,10 @@
             <Label x:Name="lblCountSteps" Content="Шаги: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="405,10,0,0" FontFamily="Century Gothic" FontSize="16" Width="243"/>
             <ComboBox x:Name="cbCount" Margin="256,13,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="54" Height="25"/>
             <Button x:Name="btnBegin" HorizontalAlignment="Left" VerticalAlignment="Top" Width="71" Height="30" Margin="329,10,0,0" FontFamily="Century Gothic" Content="начать" Click="btnBegin_Click"/>
-            <Button x:Name="btnNext" HorizontalAlignment="Right" VerticalAlignment="Top" Width="33" Height="30" Margin="0,10,38,0" FontFamily="Century Gothic" Content="»" Click="btnNext_Click"/>
-            <Button x:Name="btnPrev" HorizontalAlignment="Right" VerticalAlignment="Top" Width="33" Height="30" Margin="0,10,76,0" FontFamily="Century Gothic" Content="«" Click="btnPrev_Click" />
-            <Button x:Name="btnPlay" HorizontalAlignment="Right" VerticalAlignment="Top" Width="33" Height="30" Margin="0,10,114,0" FontFamily="Century Gothic" Content="▶" Click="btnPlay_Click" />
+            <Button x:Name="btnNext" HorizontalAlignment="Right" VerticalAlignment="Top" Width="33" Height="30" Margin="0,10,76,0" FontFamily="Century Gothic" Content="»" Click="btnNext_Click"/>
+            <Button x:Name="btnPrev" HorizontalAlignment="Right" VerticalAlignment="Top" Width="33" Height="30" Margin="0,10,114,0" FontFamily="Century Gothic" Content="«" Click="btnPrev_Click" />
+            <Button x:Name="btnPlay" HorizontalAlignment="Right" VerticalAlignment="Top" Width="33" Height="30" Margin="0,10,152,0" FontFamily="Century Gothic" Content="▶" Click="btnPlay_Click" />
+            <Button x:Name="menu" HorizontalAlignment="Right" VerticalAlignment="Top" Width="33" Height="30" Margin="0,10,38,0" FontFamily="Century Gothic" Content="←" Click="start_Click" />
         </Grid>
         <Canvas x:Name="MainCanvas" Margin="0,50,0,0">
 

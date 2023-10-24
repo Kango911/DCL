@@ -7,7 +7,8 @@
       mc:Ignorable="d"
       Height="450" Width="800">
     <Grid>
-        <Canvas Name= "canvas">
+        <Canvas Name= "canvas" Margin="0,50,0,0">
         </Canvas>
+        <Button x:Name="menu" HorizontalAlignment="Right" VerticalAlignment="Top" Width="33" Height="30" Margin="0,10,24,0" FontFamily="Century Gothic" Content="←" Click="start_Click" />
     </Grid>
 </UserControl>
